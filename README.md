@@ -13,7 +13,7 @@ Proyecto correspondiente al **Hito 1 - Introducción a React** de Desafío Latam
 - JavaScript 
 - CSS
 
-http://localhost:5175
+
 
 Autor :Anaamaria Flores Medina
 
