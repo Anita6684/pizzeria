@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+}
+
+.brand-pizza {
+  font-size: 1.35rem;
+}
+
+.nav-btn {
+  min-width: 92px;
+}
+
+.total-btn {
+  min-width: 150px;
+}
+
+.hero-section {
+  min-height: 390px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)),
+    url("https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-1239077_640_cl.jpg?alt=media&token=6a9a33da-5c00-49d4-9080-784dcc87ec2c");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  min-height: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-kicker {
+  letter-spacing: 0.18em;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.hero-section h1 {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.hero-section .lead {
+  max-width: 680px;
+}
+
+.pizza-section {
+  background: #f8f9fa;
+}
+
+.section-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  color: #6c757d;
+}
+
+.pizza-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 14px;
+}
+
+.pizza-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12) !important;
+}
+
+.pizza-image-wrapper {
+  height: 230px;
+  overflow: hidden;
+}
+
+.pizza-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.pizza-card:hover .pizza-image {
+  transform: scale(1.04);
+}
+
+.ingredients-box {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.ingredient-item {
+  padding: 0.22rem 0;
+  color: #495057;
+}
+
+.ingredient-item i {
+  color: #198754;
+}
+
+.price {
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    padding-top: 1rem;
+    align-items: stretch !important;
+  }
+
+  .nav-btn {
+    width: 100%;
+    margin-bottom: 0.45rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-section,
+  .hero-overlay {
+    min-height: 330px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.35rem;
+  }
+
+  .hero-section .lead {
+    font-size: 1rem;
+  }
+
+  .pizza-image-wrapper {
+    height: 215px;
+  }
+}
