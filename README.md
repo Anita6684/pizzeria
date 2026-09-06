@@ -10,12 +10,13 @@ Proyecto correspondiente al **Hito 1 - Introducción a React** de Desafío Latam
 - Vite
 - Bootstrap 5
 - Bootstrap Icons
-- JavaScript (ES6+)
+- JavaScript 
 - CSS
-
 
 http://localhost:5175
 
+Autor :Anaamaria Flores Medina
 
 
-# pizzeria
+
+
